@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form name="myForm" onsubmit= "return registration()">
+  <div class="container">
+    <h1 id="mainText">HTML Form Demo</h1>
+    <hr>
+
+    <label for="fName">Name</label>First Name</b></label>
+    <input type="text" placeholder="Type your first name.." name="fName" id="fName">
+
+    <label for="lName"><b>Last Name</b></label>
+    <input type="text" placeholder="Type your last name.." name="lName" id="lName">
+
+    <label for="occupation"><b>Occupation</b></label>
+    <input type="text" placeholder="Type your Occupation.." name="occupation" id="occupation">
+    
+    <label for="country"><b>Country</b></label>
+    <select name="country" id="select"class="required">
+      <option>United States</option>
+      <option>Australia</option>
+      <option>India</option>
+      <option>Canada</option>
+    </select>
+
+    <hr>
+
+    <button type="submit" class="registerbtn">Submit</button>
+  </div>
+</form>
+
+<script src="RegistrationForm.js"></script>
+</body>
+</html>
